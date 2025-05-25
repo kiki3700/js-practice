@@ -3,6 +3,7 @@
 ## JavaScript 핵심 개념 (가장 중요!)
 
 ### 기본 문법 복습 및 심화
+- naming convention
 - var, let, const 차이 (호이스팅, 스코프)
 - 데이터 타입 (원시 타입, 객체 타입)
 - 연산자, 조건문, 반복문
@@ -19,6 +20,7 @@
 - 스프레드/레스트 연산자 (Spread/Rest Operator)
 - class 문법: 자바 클래스와 유사하게 객체 지향 코드 작성 가능.
 - Map, Set 등.
+- ES Modules (import/export): JavaScript 표준 모듈 시스템.
 
 ## Node.js 핵심 개념 및 비동기 프로그래밍 심화
 
