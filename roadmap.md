@@ -43,6 +43,13 @@
 - Promise: 콜백 헬을 벗어나기 위한 핵심 개념.
 - async/await: Promise를 기반으로 비동기 코드를 동기 코드처럼 작성. 현대 Node.js 개발의 필수 요소.
 
+## 데이터베이스 연동
+
+- SQL (e.g., PostgreSQL, MySQL) 및 NoSQL (e.g., MongoDB) 기본 개념
+- Node.js에서 데이터베이스 연결 및 쿼리 실행
+- ORM (e.g., Sequelize) / ODM (e.g., Mongoose) 사용법
+- 트랜잭션 관리
+
 ## 웹 프레임워크 학습 (Express.js)
 
 ### Express.js
@@ -52,6 +59,26 @@
 - 미들웨어 (Middleware): 요청-응답 주기 중간에 특정 작업 수행 (인증, 로깅, 에러 처리 등).
 - HTTP 요청/응답 객체 다루기.
 - RESTful API 설계 개념: 백엔드 개발자라면 필수.
+- 에러 핸들링 (Error Handling) 전략
+
+## 인증 및 보안 (Authentication & Authorization)
+
+- 세션 및 쿠키 기반 인증
+- 토큰 기반 인증 (JWT - JSON Web Tokens)
+- OAuth 2.0 / OpenID Connect 개념 및 활용
+- 비밀번호 암호화 (bcrypt 등)
+- 일반적인 웹 보안 취약점 (XSS, CSRF, SQL Injection 등) 및 방어 전략
+- 보안 관련 미들웨어 (e.g., `helmet`)
+
+## 테스트 (Testing)
+
+- 테스트의 중요성 및 종류 (단위, 통합, E2E)
+- 테스트 프레임워크 (e.g., Jest, Mocha, Chai)
+- 테스트 더블 (Test Doubles: Mocks, Stubs, Spies)
+- 테스트 주도 개발 (TDD) 기본 개념
+
+## API 문서화
+- Swagger/OpenAPI 를 이용한 API 명세 작성 및 문서 자동화
 
 ## 프론트엔드 프레임워크 학습 (선택 사항)
 
@@ -67,3 +94,21 @@
 - **API 연동:** 백엔드 API와 데이터를 주고받는 방법 (e.g., `fetch` API, Axios).
 - **상태 관리 라이브러리 (선택적 심화):** 전역 상태 관리를 위한 도구 (e.g., Redux, Zustand, Recoil) - 필요시 학습.
 - **빌드 도구 및 생태계:** Webpack, Babel, Vite 등 프론트엔드 개발 환경 및 빌드 프로세스에 대한 기본적인 이해.
+
+## 배포 및 운영 (Deployment & DevOps Basics)
+
+- 환경 변수 관리 (`dotenv`)
+- 프로세스 매니저 (e.g., PM2)
+- 로깅 전략 및 라이브러리 (e.g., Winston, Morgan)
+- 컨테이너화 (Docker 기본)
+- CI/CD (Continuous Integration/Continuous Deployment) 개념 및 도구 (e.g., GitHub Actions)
+- 클라우드 플랫폼 (AWS, GCP, Azure 등) 기본 서비스 이해 및 배포 경험 (선택적 심화)
+
+## 추가 학습 권장 사항
+
+- **TypeScript:** 정적 타이핑을 통한 코드 안정성 및 유지보수성 향상.
+- **웹소켓 (WebSockets):** 실시간 양방향 통신 (e.g., `Socket.IO`)
+- **서버리스 아키텍처 (Serverless Architecture):** AWS Lambda, Google Cloud Functions 등.
+- **메시지 큐 (Message Queue):** RabbitMQ, Kafka 등 비동기 처리 및 시스템 간 결합도 완화.
+- **GraphQL:** REST API의 대안으로 등장한 데이터 질의 언어.
+- **디자인 패턴 및 아키텍처:** MVC, MSA 등.
